@@ -1,0 +1,23 @@
+name "gmuproj"
+description "GMU Proj | xcejch00"
+
+authors "Daniel 'Danol' Čejchan"
+
+sourcePaths "src"
+versions "GL_43"
+
+dependency "bindbc-opengl" version="~>0.2.0"
+dependency "dsfml:graphics" version="~>2.1.1"
+
+lflags "-Llib" platform="posix"
+libs "GL" platform="posix"
+libs "GLU" platform="posix"
+
+libs "lib/dsfmlc-window" platform="windows"
+libs "lib/dsfmlc-graphics" platform="windows"
+libs "lib/dsfmlc-system" platform="windows"
+
+targetName "gmu_xcejch00"
+targetPath "bin"
+targetType "executable"
+workingDirectory "bin"
