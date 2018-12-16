@@ -5,6 +5,7 @@ I've also written a paper on optimizing the Perlin Noise on the GPU, you can fin
 
 Perlin and Simplex noise implementations from [Stefan Gustavson]{https://github.com/ashima/webgl-noise} are also present in this application. So credits for that goes to him (the [Ashima] and [Ashima simplex] in the application). Btw, my 3D Perlin noise GLSL implemlentation uses thread cooperation and is about 3x faster than Stefan's.
 
+[Video here]{https://www.youtube.com/watch?v=6iHqdHksTco&feature=youtu.be}
 ![App screenshot](appSshot.PNG)
 
 ## How to build this project
@@ -16,7 +17,3 @@ Perlin and Simplex noise implementations from [Stefan Gustavson]{https://github.
 6. Run the program in the `bin` folder
 
 Tested on win86
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=6iHqdHksTco
-" target="_blank"><img src="http://img.youtube.com/vi/6iHqdHksTco/0.jpg" 
-alt="IMAGE ALT TEXT HERE" border="10" /></a>
